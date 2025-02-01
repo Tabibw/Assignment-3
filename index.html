@@ -86,10 +86,10 @@
         <p class=" text-2xl font-sora ">Discover a world of treats, toys, and essentials handpicked for your
           furry friends.
           Shop now and make tails wag with joy!</p>
-        <button class="font-sora text-xl btn btn-warning">Find a pet</button>
+        <button class="font-sora text-xl btn btn-warning transform transition-transform hover:scale-75">Find a pet</button>
       </div>
       <div class=" w-full h-full mt-[-20%] bg-transparent">
-        <img class="w-full h-full object-contain mix-blend-multiply" src="c1-assets/cat-big.png" alt="">
+        <img class="w-full h-full object-contain mix-blend-multiply transform transition-transform hover:scale-90 duration-700 cursor-pointer" src="c1-assets/cat-big.png" alt="">
       </div>
     </div>
   </header>
@@ -98,21 +98,21 @@
     <section>
       <div class="md:container mx-auto space-y-5 px-2">
         <h1 class="text-4xl font-bold">Some Q&A</h1>
-        <div class="collapse collapse-arrow bg-base-200">
+        <div class="collapse collapse-arrow bg-[#FFF9F4]">
           <input type="radio" name="my-accordion-2" checked="checked" />
           <div class="collapse-title text-xl font-medium">Can i get various type of pets?</div>
           <div class="collapse-content">
             <p>Yes</p>
           </div>
         </div>
-        <div class="collapse collapse-arrow bg-base-200">
+        <div class="collapse collapse-arrow bg-[#FFF9F4]">
           <input type="radio" name="my-accordion-2" />
           <div class="collapse-title text-xl font-medium">How many types of pets here</div>
           <div class="collapse-content">
             <p>Total 6</p>
           </div>
         </div>
-        <div class="collapse collapse-arrow bg-base-200">
+        <div class="collapse collapse-arrow bg-[#FFF9F4]">
           <input type="radio" name="my-accordion-2" />
           <div class="collapse-title text-xl font-medium">Are the pets healthy?</div>
           <div class="collapse-content">
@@ -358,10 +358,24 @@
   </main>
 
   <footer>
+    <div class=" md:container mx-auto mb-[-200px] z-10 relative max-md:mx-2 py-10 bg-[#FFF9F4] px-2 rounded-xl">
+      <div class=" lg:flex gap-40 items-center px-5">
+        <div>
+          <img src="c1-assets/cute-pet-mid.png" alt="">
+        </div>
+        <div class="space-y-6">
+          <h1 class="font-ADLaM text-4xl">Get Pawsome News!</h1>
+          <p class="text-2xl font-semibold">Exclusive training tips, ticks, product deals and more.</p>
+          <input class="font-sora text-2xl font-medium py-3 pl-3 pr-7 lg:pr-40" type="email" name="" id=""
+            placeholder="Enter E-Mail..."><br>
+          <button class="btn btn-warning text-xl">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <section class=" relative border-2 border-yellow-300 z-0 bg-yellow-300 max-md:h-[650px] h-[500px] ">
 
-    <section class=" bg-yellow-300">
       <div class="md:container mx-auto px-2">
-        <footer class="footer justify-between text-base-content p-10 ">
+        <footer class=" mt-64 flex max-md:flex-col items-center max-md:items-start justify-between max-md:justify-end gap-4 text-base-content p-10 ">
           <aside>
             <div class="flex items-center gap-1">
               <img class="" src="c1-assets/logo-footer.png" alt="">
@@ -371,7 +385,7 @@
               Discover a world of treats, toys, <br>and handpicked for your furry friends
             </p>
           </aside>
-          <nav class="text-xl font-medium">
+          <nav class="flex flex-col text-xl font-medium">
             <a href="">Find a pet</a>
             <a href="">Breeds</a>
             <a href="">Contact us</a>
